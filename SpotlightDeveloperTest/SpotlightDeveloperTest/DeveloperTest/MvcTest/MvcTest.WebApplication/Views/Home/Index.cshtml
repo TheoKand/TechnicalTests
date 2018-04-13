@@ -1,0 +1,9 @@
+﻿@{
+	ViewBag.Title = "Index";	
+}
+<h2>Hi there!</h2>
+<form action="@Url.Action("Welcome")" method="post">
+	<label for="name">What's your name?</label>
+	<input type="text" name="name" id="name" placeholder="name" />
+	<input type="submit" value="Go!" />
+</form>

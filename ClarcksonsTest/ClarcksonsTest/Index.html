@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+
+        function calcAvgHeight(data) {
+            // Calculate average height from received data. If no data, return null.
+
+
+            //iterate through properties of object
+
+            var totalHeight = 0;
+            var totalPersons = 0;
+
+            for (var person in data) {
+                if (data.hasOwnProperty(person)) {
+                    totalHeight = totalHeight + data[person].height;
+                    totalPersons++;
+                }
+            }
+
+            var returnValue = totalHeight / totalPersons;
+            return returnValue;
+
+
+        }
+
+        var avgHeight = calcAvgHeight({
+            Matt: { height: 174, weight: 69 },
+            Jason: { height: 190, weight: 103 }
+        });
+        console.log(avgHeight);
+
+
+
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+
+
+
+
+</body>
+</html>
