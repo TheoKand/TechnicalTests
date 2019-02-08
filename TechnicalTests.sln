@@ -58,6 +58,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verivox", "Verivox\Verivox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verivox.UnitTests", "Verivox\Verivox.UnitTests\Verivox.UnitTests.csproj", "{3FEE63B5-7CB8-406A-ACC5-10924ED3B443}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{701BB2C7-1283-4AD7-9758-F80EAA22AFD4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
