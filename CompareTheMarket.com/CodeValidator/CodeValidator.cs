@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CodeValidator
 {
     /// <summary>
-    /// Write a function that will be passed some javascript code and it will return TRUE if the code validates correctly.
+    /// Write a function that accepts some javascript code and it will return TRUE if the code validates correctly.
     /// There are 3 types of brackets in javascript: { [ ( . Your function must check if the code is written correctly, meaning
     /// if all opened brackets have been closed correctly. 
     /// { ( [ code ] ) } should return TRUE
