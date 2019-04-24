@@ -1,5 +1,5 @@
 # TechnicalTests
 
-These are various technical tests I've received for potential job openings.
+These are various technical tests I've found online and wanted to give them a go.
 
-Also some pair programming exercises I've worked on during face to face interviews.
+Only a couple of these are tests I've actually received my self during an interview process
